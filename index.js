@@ -155,8 +155,8 @@ app.get('/projects/:appname/:action', (req, res) => {
 //     })
 // })
 
-// const randomPort = Math.floor(Math.random() * (65536 - 8000) + 8000)
-const port = 80
+const randomPort = Math.floor(Math.random() * (65536 - 8000) + 8000)
+// const port = 80
 
 app.listen(port, () => {
     console.log(`website active on ${port}`)
