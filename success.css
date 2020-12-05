@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(0, 255, 98);
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  [class |= "confetti"]{
+    position: absolute;
+  }
+  
+  .red {
+    background-color: #dc2626;
+  }
+  
+  .yellow {
+    background-color: #ffbf00;
+  }
+  
+  .blue {
+    background-color: #6eaff3;
+  }
+
+  .purple {
+    background-color: darkviolet;
+  }

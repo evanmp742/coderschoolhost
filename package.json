@@ -1,0 +1,22 @@
+{
+  "name": "coderschoolhost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "download-git-repo": "^3.0.2",
+    "express": "^4.17.1",
+    "pm2": "^4.5.0",
+    "simple-git": "^2.20.1",
+    "tailwindcss": "^1.7.3"
+  },
+  "devDependencies": {
+    "postcss": "^7.0.32"
+  }
+}

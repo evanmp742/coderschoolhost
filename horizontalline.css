@@ -1,0 +1,6 @@
+#projectList > :not(:last-child) {
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding-bottom: 0.25rem;
+}
