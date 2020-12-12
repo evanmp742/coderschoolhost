@@ -156,6 +156,7 @@ app.get('/projects/:appname/:action', (req, res) => {
 // })
 
 const port = process.argv[2]
+fs.writeFile('port.txt', port)
 
 app.listen(port, () => {
     console.log(`website active on ${port}`)
