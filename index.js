@@ -155,7 +155,7 @@ app.get('/projects/:appname/:action', (req, res) => {
 //     })
 // })
 
-const port = process.argv
+const port = process.argv[2]
 
 app.listen(port, () => {
     console.log(`website active on ${port}`)
