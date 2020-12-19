@@ -155,8 +155,9 @@ app.get('/projects/:appname/:action', (req, res) => {
 //     })
 // })
 
-const port = process.argv[2]
-fs.writeFileSync('port.txt', port)
+const port = 8080
+// const port = process.argv[2]
+// fs.writeFileSync('port.txt', port)
 
 app.listen(port, () => {
     console.log(`website active on ${port}`)
